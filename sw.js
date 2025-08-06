@@ -8,6 +8,7 @@ const urlsToCache = [
     '/tarefa/icons/icon-512x512.png'
 ];
 
+
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -25,5 +26,3 @@ self.addEventListener('fetch', event => {
             })
     );
 });
-
-
