@@ -1,6 +1,6 @@
 const CACHE_NAME = 'pwa-task-list-v1';
 const urlsToCache = [
-    '/tarefa/sw.js',
+    '/tarefa/',
     '/tarefa/index.html',
     '/tarefa/style.css',
     '/tarefa/manifest.json',
@@ -25,4 +25,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
